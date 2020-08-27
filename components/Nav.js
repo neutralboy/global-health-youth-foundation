@@ -29,7 +29,7 @@ const Nav = () => {
         <div id="navbarBasicExample" className={`navbar-menu ${open && "is-active"} `}>
 
       
-          <div onClick={setOpen(false)} className="navbar-end">
+          <div onClick={()=>setOpen(false)} className="navbar-end">
             <div className="navbar-item">
                 <Link href="/scope">
                   <a>
