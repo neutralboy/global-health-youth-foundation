@@ -16,9 +16,9 @@ const Join = () => (
                         <div className="column is-two-thirds-desktop is-full-mobile">
                             <div className="content">
                                 <p>
-                                Global Health Youth Foundation strongly believes in a multidisciplinary, multisectoral, integrative and collaborative environment for development of future Global Health Leaders. Hence Global Health Youth Foundation welcomes youth from all disciplines and sectors, regardless of education background who are interested to expand their horizons and contribute to the future of Global Health in any ways possible, to join us.
+                                Global Health Opportunities are often unidirectional, and often not accessible to the Global South. Hence Global Health Youth Foundation (GHYF), a principle Global South Youth-led Healthcare Think Tank, aims to provide sustainable, easily accessible and affordable opportunities for youth, all the while empowering them to be Global Health Leaders of Tomorrow.
                                 <br/><br/>
-                                GHYF defines ‘Youth’ to be a person between the ages 15-30 years.
+                                As a member, you will be able to be a part of and lead your own projects, access to be part of our working groups, work with us on policy, research and workshop collaboration, get to be a part of our national and international delegations, get access to our community based-rural health and education internships, conferences and various other opportunities as they arise.
                                 </p>
                             </div>
                         </div>
@@ -26,12 +26,12 @@ const Join = () => (
                             <img alt="membership" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_370/v1591896253/doctor/20.png" />
                         </div>
                     </div>
-                    <a className="button is-primary is-large is-fullwidth">COMING SOON</a>
+                    <a href="https://rzp.io/l/ghyf-membership" className="button is-primary is-large is-fullwidth">Join Us</a>
                 </div>
 <br/>
                 <div>
                     <h2 className="is-size-3 is-family-secondary">Sponsorship / Donate</h2>
-                    <a className="is-size-4" href="mailto:ceo@ghfy.org">ceo@ghfy.org</a>
+                    <a className="is-size-4" href="mailto:ceo@ghfy.org">ceo@ghyf.org</a>
                 </div>
 
             </div>

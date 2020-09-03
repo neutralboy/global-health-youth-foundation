@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
-export default function Home() {
+export default function Home({ data }) {
   return (
     <>
       <Head>
@@ -15,33 +14,11 @@ export default function Home() {
     </div>
     </section>
 
-      <section className="section has-background-light">
-        <div className="container">
-        
-        <div className="level">
-          <div className="level-item">
-            <p className="title">Trust</p> 
-          </div>
-          <div className="level-item">
-            <p className="title">Dialogue</p> 
-          </div>
-          <div className="level-item">
-            <p className="title">Health</p> 
-          </div>
-          <div className="level-item">
-            <p className="title">Respect</p> 
-          </div>
-          <div className="level-item">
-            <p className="title">Sustainability</p> 
-          </div>
-          <div className="level-item">
-            <p className="title">Equality</p> 
-          </div>
-        </div>
-        
-        </div>
-      </section>
-    
+    <section className="has-background-light section">
+      <div className="has-text-centered">
+        <h3 className="is-size-5">Global Health Youth Foundation is a non-partisan, non- profit, youth run Think Tank to empower Youth to work as future Global Health Leaders</h3>
+      </div>
+    </section>
 
       <section className="section">
         <div className="container">
@@ -51,23 +28,40 @@ export default function Home() {
             </h2>
           </div>
           <br/>
-          <div className="columns is-vcentered">
-            <div className="column is-half-desktop is-full-mobile">
-              <img style={{ height: "400px" }} src="https://res.cloudinary.com/poorna/image/upload/v1598461533/undraw_mission_impossible_bwa2.svg" alt="mission" />
-            </div>
-            <div className="column is-half-desktop is-full-mobile">
-              <p className="is-size-4">
-                A youth driven think and do tank which aims to foster Youth Engagement and provide a platform to empower young people to become global health leaders.
-              </p><br/>
-              <Link href="/join">
-                <a className="button is-primary is-fullwidth">Become a Member</a>
-              </Link>
-            </div>
-          </div>
+            <p className="is-size-4">
+              A youth driven think and do tank which aims to foster Youth Engagement and provide a platform to empower young people to become global health leaders.
+            </p><br/>
+        </div>
+      </section>
+      <section className="section has-background-primary">
+        <div className="container">
+        <h2 className="has-text-white is-size-2 is-family-secondary">Values.</h2><br/>
+        <div className="columns is-multiline">
+          {
+            data.map(e=>
+                <div key={Math.random()} className="column has-text-centered is-half-desktop is-full-mobile">
+                  <div className=" box "><p className="is-size-4">{e}</p></div>
+                </div>
+              )
+          }
+        </div>
         </div>
       </section>
 
 
     </>
   )
+}
+export async function getStaticProps() {
+  let data = [
+    "Enhance Critical Thinking",
+    "Youth Dialogue and Partnership",
+    "Health and Equity",
+    "Sustainability, Ideation and Innovation"
+  ]
+  return {
+    props: {
+        data
+    },
+  }
 }

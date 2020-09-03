@@ -30,12 +30,25 @@ const Nav = () => {
 
       
           <div onClick={()=>setOpen(false)} className="navbar-end">
-            <div className="navbar-item">
-                <Link href="/scope">
-                  <a>
-                  Scope
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">Scope</a>
+              <div class="navbar-dropdown is-boxed">
+                <Link href="/scope/cbcr">
+                  <a className="navbar-item">
+                    Heath Education Internship
                   </a>
                 </Link>
+                <Link href="/scope/dgh">
+                  <a className="navbar-item">
+                    Decolonizing Global Health
+                  </a>
+                </Link>
+                <Link href="/scope/youth-action">
+                  <a className="navbar-item">
+                    Youth action
+                  </a>
+                </Link>
+              </div>
               </div>
             <div className="navbar-item">
               <Link href="/team">
