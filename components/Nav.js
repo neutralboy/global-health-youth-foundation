@@ -32,7 +32,7 @@ const Nav = () => {
           <div onClick={()=>setOpen(false)} className="navbar-end">
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">Scope</a>
-              <div class="navbar-dropdown is-boxed">
+              <div className="navbar-dropdown is-boxed">
                 <Link href="/scope/cbcr">
                   <a className="navbar-item">
                     Heath Education Internship

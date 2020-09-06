@@ -24,6 +24,8 @@ export default function CBCR(){
                             We seek individuals who want to gain work experience and exposure to development in a very rural and sometimes challenging setting.These positions offer the opportunity to learn about the inner workings of rural health and life all the while being exposed to fundraising, programming, and evaluation in areas of rural public health, health education, medicine, women’s rights, and economic and community development.<br/><br/>
                             As GHYF envisions to empower people and communities to eliminate injustices through integrated and collaborative efforts in health and development. The internship is not restricted only to healthcare majoring students, but instead open to any youth from 18-35 years, from anywhere in the globe.
                         </p>
+                        <br/>
+                        <a className="button is-fullwidth is-success" href="mailto:ceo@ghyf.org">Contact Us</a>
                     </div>
                 </div>
             </div>

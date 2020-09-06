@@ -28,8 +28,8 @@ export default function Home({ data }) {
             </h2>
           </div>
           <br/>
-            <p className="is-size-4">
-              A youth driven think and do tank which aims to foster Youth Engagement and provide a platform to empower young people to become global health leaders.
+            <p className="is-size-5">
+            GHYF aims to form a youth-driven Think Tank to engage youth in the policy making process and inspire to lead a platform for students and young professionals in the field of global health to engage, network and build capacity through innovative ideas, professional development and discussions to promote youth to enact tangible changes, in improving global health and achieving health equity by fostering quality and ethical research, education, advocacy, leadership, and community action, while building a peer and mentorship network in the process.
             </p><br/>
         </div>
       </section>
