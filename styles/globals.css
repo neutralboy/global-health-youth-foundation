@@ -24,3 +24,7 @@
 .header > h2{
   border-bottom: 2px solid black;
 }
+.same-height{
+  min-height: 14rem;
+  border-radius: 0;
+}
