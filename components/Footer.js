@@ -20,7 +20,7 @@ const Footer = () => (
                             <li className="is-size-5"><Link href="/scope/dgh"><a>Decolonizing Global Health</a></Link></li>
                             <li className="is-size-5"><Link href="/scope/youth-action"><a>Youth Action in Covid 19</a></Link></li>
                             <li className="is-size-5"><Link href="/team" ><a>Team</a></Link></li>
-                            <li className="is-size-5"><Link href="/join-us"><a>Join Us</a></Link></li>
+                            <li className="is-size-5"><Link href="/join"><a>Join Us</a></Link></li>
                         </ul>
                     </div>
                     <div className="column is-half-desktop is-full-mobile has-text-centered">
