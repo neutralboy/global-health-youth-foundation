@@ -15,7 +15,7 @@ const Nav = () => {
               <span className="icon is-large">
                 <img src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_50/v1598529986/ghyf/KOSHA_-GHYF.png" alt="logo" />
               </span>
-              GHFY.
+              GHYF.
             </a>
           </Link>
       

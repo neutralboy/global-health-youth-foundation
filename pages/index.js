@@ -14,7 +14,7 @@ export default function Home({ data }) {
               <div className="columns is-vcentered">
                 <div className="column is-one-quarter-desktop is-full-mobile">
                   <img src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_50/v1598529986/ghyf/KOSHA_-GHYF.png" alt="logo" />
-                  <h2 className="is-size-2 has-text-white">GHFY</h2>
+                  <h2 className="is-size-2 has-text-white">GHYF</h2>
                 </div>
                 <div className="column is-three-quarters-desktop is-full-mobile">
                   <h1 className="is-size-1 has-text-primary family-secondary">
