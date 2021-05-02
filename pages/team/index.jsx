@@ -67,7 +67,7 @@ export async function getStaticProps(ctx){
         {
             name: "Leah Sarah Peer",
             role: "Head of Growth",
-            image: "",
+            image: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1619950802/ghyf/Leah_Sarah_Peer_-_Canada_-_Leah_Sarah_Peer.png",
             description: `A medical student at Saint James School of Medicine and a graduate
             of Concordia University, Specialization in Biology, Minor in Human
             Rights in Montreal, Quebec, Canada. Through her interactions with
@@ -94,7 +94,7 @@ export async function getStaticProps(ctx){
         {
             name: "Siddhi Rangari",
             role: "Head of Social Media and Marketing",
-            image: "",
+            image: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1619950801/ghyf/IMG_20190919_082408_246_-_Siddhi_Rangari.png",
             description: `A medical student working on designing and increasing the social
             reach.
             Is self taught designer who believes that medical students can
@@ -103,7 +103,7 @@ export async function getStaticProps(ctx){
         {
             name: "Srinay Yareshimi",
             role: "Deputy Head of Communication",
-            image: "",
+            image: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1619950802/ghyf/PicsArt_12-08-11.54.26_-_Srinay_Y1170.png",
             description: `A medical student who enjoys gaming, traveling and watching
             anime shows in my leisure time, furthermore I am an avid
             environmentalist whose interest lies in the conservation of the
@@ -130,7 +130,7 @@ export async function getStaticProps(ctx){
         {
             name: "Stuti Chakraborty",
             role: "Editor-in-Chief (Blog)",
-            image: "",
+            image: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1619950801/ghyf/IMG_3273_-_Stuti_C.png",
             description: `Currently working at Christian Medical College, Vellore. She is a country representative for Healthcare
             Information for All; part of the SDG 3 as well as Science Policy working group for the United Nations Major
             Group for Children and Youth; a country correspondent for YourCommonwealth; a communications team
