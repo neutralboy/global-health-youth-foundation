@@ -1,8 +1,6 @@
 import { MainScopes } from "./MainScopes";
 
-export default (req, res) => {
-    const { slug } = req.query;
+export default function Scope(slug) {
     const result = MainScopes.filter(i => i.slug === slug );
-    res.status = 200;
-    res.json(result[0]);
+    return result[0];
 };

@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import ScopeCard from "./../../components/ScopeCard";
+import ScopeAll from "./../api/scope-all";
 
 const Scope = ({ data }) => (
     <div>
@@ -33,8 +34,7 @@ const Scope = ({ data }) => (
 );
 
 export async function getStaticProps(){
-    const res = await fetch(`${process.env.URL}/api/scope-all`);
-    const data = await res.json();
+    const data = ScopeAll();
     return{
         props: { data }
     }

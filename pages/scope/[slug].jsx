@@ -1,5 +1,8 @@
 import Head from "next/head";
 
+import ScopePaths from "./../api/scope-paths";
+import Scope from "./../api/scope";
+
 const ScopeSlug = ({data}) => {
     return(
         <div>
@@ -26,8 +29,7 @@ const ScopeSlug = ({data}) => {
 }
 
 export async function getStaticProps({ params }){
-    const res = await fetch(`${process.env.URL}/api/scope?slug=${params.slug}`);
-    const data = await res.json();
+    const data = Scope(params.slug);
     return {
         props: { data }
     }
@@ -35,8 +37,7 @@ export async function getStaticProps({ params }){
 }
 
 export async function getStaticPaths(){
-    const sp = await fetch(`${process.env.URL}/api/scope-paths`);
-    const spj = await sp.json();
+    const spj = ScopePaths();
     const paths = [];
 
     for (let index = 0; index < spj.length; index++) {

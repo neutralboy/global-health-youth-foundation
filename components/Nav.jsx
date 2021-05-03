@@ -24,7 +24,9 @@ const Nav = () => (
                 <p>Blog</p>
             </div>
             <div className="px-6 text-lg border-red-800 border-solid border-l-2">
-                <p>Accountabilty</p>
+                <Link href="/accountability">
+                    <a>Accountabilty</a>
+                </Link>
             </div>
         </div>
         <div className="flex flex-row">
