@@ -42,7 +42,7 @@ export default function Home({ data }) {
               <img className="m-auto" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1600608690/ghyf/yingchou-han-IJrIeCs3D4g-unsplash.png" alt="Youth" />
             </div>
             <div className="col-span-1 text-center">
-              <h2 className="text-red-600 text-8xl font-extrabold flex items-center justify-center">Mission</h2>
+              <h2 className="text-red-600 text-8xl font-extrabold flex items-center justify-center font-lato">Mission</h2>
               <div className="content text-white text-3xl mt-6 p-6 items-center">
                 <p>
                 To form a youth-driven Think Tank to engage
@@ -85,7 +85,7 @@ export default function Home({ data }) {
       <div className="bg-black">
         <div style={{ background: "linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(220,38,38,1) 50%, rgba(220,38,38,1) 50%)" }} className="pt-12 pl-36 pr-36 p-28">
           <div className="header text-center">
-            <h2 className="text-8xl text-white font-extrabold">Values</h2>
+            <h2 className="text-8xl text-white font-extrabold font-lato">Values</h2>
           </div>
           <div className="grid grid-cols-4 space-x-4 mt-12">
 
@@ -114,7 +114,7 @@ export default function Home({ data }) {
       <div className="bg-black">
         <div style={{ background: "linear-gradient(180deg, rgba(220,38,38,1) 50%, rgba(220,38,38,1) 50%, rgba(0,0,0,1) 50%" }} className="pt-12 pl-36 pr-36 p-28">
           <div className="header text-center">
-            <h2 className="text-8xl text-white font-extrabold">Our Partners</h2>
+            <h2 className="text-8xl text-white font-extrabold font-lato">Our Partners</h2>
           </div>
           <div className="grid grid-cols-4 space-x-4 mt-12">
 

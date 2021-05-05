@@ -34,7 +34,7 @@ const Nav = () => (
                 Join Us
             </div>
             <div className="pl-6 text-lg border-red-800 border-solid border-l-2">
-                Donate
+                <Link href="/donate"><a>Donate</a></Link>
             </div>
         </div>
     </nav>

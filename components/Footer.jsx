@@ -16,7 +16,6 @@ const Footer = () => (
                 <div>
                     <h4 className="text-3xl text-white">Phone Number</h4>
                     <a className="text-yellow-300 text-2xl block">+91 (878) 2950190</a>
-                    <a className="text-yellow-300 text-2xl">+1(516) 591 0876</a>
                 </div>
             </div>
         </div>

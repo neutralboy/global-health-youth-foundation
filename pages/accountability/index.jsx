@@ -1,9 +1,16 @@
 import Head from "next/head";
 
+const style = {
+    backgroundColor: "#000000",
+backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E")`,
+backgroundAttachment: "scroll",
+backgroundSize: "cover"
+};
+
 const AccBlock = ({ title, desc, points }) => (
     <div className="p-20">
         <div>
-            <h1 className="text-6xl text-red-600 font-black">{title}</h1>
+            <h1 className="text-6xl text-red-600 font-black font-lato">{title}</h1>
             <div className="pt-6">
                 <p className="text-2xl text-white">
                     {desc}
@@ -28,7 +35,21 @@ const Accountability = ({ data }) => (
         <Head>
             <title>Accountability | GHYF</title>
         </Head>
-        <div className="pt-18">
+        <div>
+            <div style={style} className="grid grid-cols-12 space-x-3">
+                <div className="col-span-4 pt-18 p-20 ">
+                    <h1 style={{ textShadow: "red 6px 6px" }} className="text-white text-9xl font-black font-lato">CEO's Message</h1>
+                </div>
+                <div className="col-span-8 flex flex-wrap">
+                    <div className="m-auto">
+                        <span className="font-black text-yellow-300 text-9xl z-10 absolute float-left">&#8220;</span>
+                        <blockquote className="text-white text-3xl m-12 text-right">
+                            We have to stop describing Social Protection as a cost we can't afford. We must recognize it as an investment that can unlock Generation's Prosperity: Invest in Universal Social Protection to leave no one behind and Focus on to reach those farthest behind first.
+                        </blockquote>
+                    </div>
+                </div>
+                
+            </div>
             {
                 data.map(e=>
                     <AccBlock {...e} />

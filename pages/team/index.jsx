@@ -10,7 +10,7 @@ const Team = ({ data }) => {
             </Head>
         <div className="grid grid-cols-12">
             <div className="col-span-9 bg-red-600 pt-32 p-12 flex justify-center items-center pb-28">
-                <h1 className="text-9xl text-center font-extrabold text-white">Team</h1>
+                <h1 className="text-9xl text-center font-extrabold text-white font-lato">Team</h1>
             </div>
             <div className="col-span-3 bg-black p-12 flex flex-wrap justify-center items-center">
                 <img src="inline-block m-auto" alt="" src="https://res.cloudinary.com/poorna/image/upload/v1619872911/ghyf/streamline-icon-team-meeting_200x200.png" />

@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily:{
-      sans: ['Inter', 'sans-serif']
+      sans: ['Inter', 'sans-serif'],
+      lato: ['Lato', 'sans-serif']
     },
   },
   variants: {

@@ -10,7 +10,7 @@ const Scope = ({ data }) => (
         </Head>
         <div className="grid grid-cols-12">
             <div className="col-span-9 bg-red-600 pt-32 p-12 flex justify-center items-center pb-28">
-                <h1 className="text-9xl text-center font-extrabold text-white">Scope of Work</h1>
+                <h1 className="text-9xl text-center font-extrabold text-white font-lato">Scope of Work</h1>
             </div>
             <div className="col-span-3 bg-black p-12 flex flex-wrap justify-center items-center">
                 <img src="inline-block m-auto" alt="" src="https://res.cloudinary.com/poorna/image/upload/v1619951526/ghyf/streamline-icon-task-list-to-do_200x200.png" />

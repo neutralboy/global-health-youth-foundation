@@ -11,7 +11,7 @@ const ScopeSlug = ({data}) => {
         </Head>
         <div className="grid grid-cols-12">
             <div className="col-span-9 content text-center bg-red-600 p-16 flex flex-wrap justify-center items-center">
-                <h1 className="text-6xl font-black text-white">{data.title}</h1>
+                <h1 className="text-6xl font-black text-white font-lato">{data.title}</h1>
             </div>
             <div className="col-span-3 bg-black p-12 flex flex-wrap">
                 <img className="m-auto" alt="" src="https://res.cloudinary.com/poorna/image/upload/v1619951526/ghyf/streamline-icon-task-list-to-do_200x200.png" />
