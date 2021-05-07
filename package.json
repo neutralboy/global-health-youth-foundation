@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap",
+    "deploy": "next build && next-sitemap && next export"
   },
   "dependencies": {
     "next": "*",
+    "next-sitemap": "^1.6.49",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "react": "*",
@@ -19,5 +22,10 @@
     "postcss": "^8.2.13",
     "tailwindcss": "^2.1.2"
   },
-  "browserslist": [">0.3%", "ie 11", "not dead", "not op_mini all"]
+  "browserslist": [
+    ">0.3%",
+    "ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
 }

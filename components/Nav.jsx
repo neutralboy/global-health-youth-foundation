@@ -31,7 +31,9 @@ const Nav = () => (
         </div>
         <div className="flex flex-row">
             <div className="px-6 text-lg">
-                Join Us
+                <Link href="/join-us">
+                    <a>Join Us</a>
+                </Link>
             </div>
             <div className="pl-6 text-lg border-red-800 border-solid border-l-2">
                 <Link href="/donate"><a>Donate</a></Link>

@@ -18,7 +18,7 @@ const Donate = () =>(
 
             <div className="p-28 pt-20">
                 <h2 className="text-5xl font-black text-red-600 font-lato">Ways to Give</h2>
-                <div className="pt-6">
+                <div className="pt-6 text-2xl">
                     <p className="text-white">
                     Your support helps GHYF to advance the rapid, systemic changes that the world needs to slow climate change, improve livelihoods and get on a path to a
                     sustainable, prosperous future. GHYF works with decision makers and other partners around the world to transform societies and economies, applying
@@ -34,7 +34,7 @@ const Donate = () =>(
 
             <div className="p-28 pt-10">
                 <h2 className="text-5xl font-black text-red-600 font-lato">The Annual Fund: Make a Gift</h2>
-                <div className="pt-6">
+                <div className="pt-6 text-2xl">
                     <p className="text-white">
                     Gifts from individuals and family foundations provide a pool of critical unrestricted funds that support GHYF’s daily operations. These
                     unrestricted dollars support ongoing activities ranging from research and analysis to the outreach needed to put our products in the hands of
@@ -52,7 +52,7 @@ const Donate = () =>(
 
             <div className="p-28 pt-10">
                 <h2 className="text-5xl font-black text-red-600 font-lato">Sustainer’s Circle: Become a Member</h2>
-                <div className="pt-6">
+                <div className="pt-6 text-2xl">
                     <p className="text-white">
                         Join the Sustainer’s Circle: The Sustainer’s Circle is a group of individuals whose support of ₹100,000 or more helps GHYF respond to emerging
                         opportunities, seed new work and invest in innovation. Members are invited to informative, exciting events and briefings, and receive weekly
@@ -72,7 +72,7 @@ const Donate = () =>(
 
             <div className="p-28 pt-10">
                 <h2 className="text-5xl font-black text-red-600 font-lato">Planned & Estate Gifts</h2>
-                <div className="pt-6">
+                <div className="pt-6 text-2xl">
                     <p className="text-white">
                         To leave a gift to GHYF in your will or trust, please use the following language:
                     </p>
