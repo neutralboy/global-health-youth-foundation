@@ -1,0 +1,5 @@
+@media (min-width: 1024px){
+    .minHCard{
+        min-height: 368px;
+    }
+}

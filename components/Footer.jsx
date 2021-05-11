@@ -1,7 +1,7 @@
 const Footer = () => (
-    <div className="bg-red-600 p-24">
+    <div className="bg-red-600 p-4 pt-12 lg:p-24">
         <h3 className="text-4xl text-white font-extrabold">Contact Us</h3>
-        <div className="grid grid-cols-2 space-x-3">
+        <div className="grid space-y-3 lg:grid-rows-1 lg:space-y-0 lg:grid-cols-2 lg:space-x-3">
             <div className="col-span-1">
                 <div className="mt-10">
                     <h4 className="text-3xl text-white">Email Address</h4>

@@ -10,10 +10,10 @@ const ScopeSlug = ({data}) => {
             <title>{data.title} | GHYF</title>
         </Head>
         <div className="grid grid-cols-12">
-            <div className="col-span-9 content text-center bg-red-600 p-16 flex flex-wrap justify-center items-center">
-                <h1 className="text-6xl font-black text-white font-lato">{data.title}</h1>
+            <div className="col-span-9 bg-red-600 p-12 flex justify-center items-center lg:pb-28 lg:pt-32">
+                <h1 className="text-4xl lg:text-6xl text-center font-extrabold text-white font-lato">{data.title}</h1>
             </div>
-            <div className="col-span-3 bg-black p-12 flex flex-wrap">
+            <div className="col-span-3 p-2 bg-black lg:p-12 flex flex-wrap justify-center items-center">
                 <img className="m-auto" alt="" src="https://res.cloudinary.com/poorna/image/upload/v1619951526/ghyf/streamline-icon-task-list-to-do_200x200.png" />
             </div>
         </div>
