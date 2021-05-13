@@ -23,7 +23,7 @@ export default function Home({ data }) {
 
 
         <div className="p-12 pr-12 lg:pt-32">
-          <h1 className="text-6xl lg:text-9xl text-red-600 font-extrabold">
+          <h1 className="text-5xl lg:text-9xl text-red-600 font-extrabold">
             Global <span className="text-white">Health</span> Youth Foundation
           </h1>
 
