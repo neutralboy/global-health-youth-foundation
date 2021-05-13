@@ -112,7 +112,7 @@ export default function Home({ data }) {
               ].map(e=>
                 <div key={Math.random()} className="lg:col-span-1 p-1 lg:p-3">
                 <div className="shadow bg-white p-4 lg:p-6 rounded-md flex flex-wrap justify-center items-center minHCard">
-                  <img className="mx-auto h-32 lg:h-48" src={e.icon} alt={e.text} />
+                  <img className="mx-auto" src={e.icon} alt={e.text} />
 
                   <div className="text-center mx-auto p-1 lg:p-4 mt-6 block">
                     <p className="text-1xl uppercase font-extrabold text-center">{e.text}</p>
@@ -136,7 +136,7 @@ export default function Home({ data }) {
               rewind: true,
               gap: '1rem'
             }}>
-                {/* {
+                {
                   [
                     {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png"},
                     {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/GI_Labs.png"},
@@ -147,36 +147,10 @@ export default function Home({ data }) {
                     {icon: "https://res.cloudinary.com/poorna/image/upload/v1619869910/ghyf/partners/SAC_logo.jpg"}
                   ].map(e=>
                     <SplideSlide key={Math.random()}>
-                      <div className="p-3 flex flex-wrap">
-                        <div className="shadow bg-white p-6 rounded-md mx-auto">
-                          <img className="mx-auto max-h-28" src={e.icon} alt="" />
-                        </div>
-                      </div>
+                      <img className="mx-auto max-h-28" src={e.icon} alt="" />
                     </SplideSlide>
                     )
-                } */}
-                <SplideSlide>
-                    {/* <div className="p-3 flex flex-wrap">
-                      <div className="shadow bg-white p-6 rounded-md mx-auto">
-                        <img className="mx-auto max-h-28" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png" alt="" />
-                      </div>
-                    </div> */}
-                    <div>
-                      <img src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png" alt="" />
-                    </div>
-
-                </SplideSlide>
-                <SplideSlide>
-                    {/* <div className="p-3 flex flex-wrap">
-                      <div className="shadow bg-white p-6 rounded-md mx-auto">
-                        <img className="mx-auto max-h-28" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png" alt="" />
-                      </div>
-                    </div> */}
-                    <div>
-                      <img src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png" alt="" />
-                    </div>
-
-                </SplideSlide>
+                }
             </Splide>
           </div>
         </div>

@@ -8,11 +8,11 @@ backgroundSize: "cover"
 };
 
 const AccBlock = ({ title, desc, points }) => (
-    <div className="p-20">
+    <div className="p-10">
         <div>
-            <h1 className="text-6xl text-red-600 font-black font-lato">{title}</h1>
+            <h1 className="text-4xl lg:text-6xl text-red-600 font-black font-lato">{title}</h1>
             <div className="pt-6">
-                <p className="text-2xl text-white">
+                <p className="text-xl text-white">
                     {desc}
                 </p>
                 {points &&
@@ -36,23 +36,23 @@ const Accountability = ({ data }) => (
             <title>Accountability | GHYF</title>
         </Head>
         <div>
-            <div style={style} className="grid grid-cols-12 space-x-3">
-                <div className="col-span-4 pt-18 p-20 ">
-                    <h1 style={{ textShadow: "red 6px 6px" }} className="text-white text-9xl font-black font-lato">CEO's Message</h1>
+            <div style={style} className="lg:grid lg:grid-cols-12 space-x-3">
+                <div className="col-span-4 pt-18 lg:p-20 p-10 ">
+                    <h1 style={{ textShadow: "red 6px 6px" }} className="text-white text-7xl lg:text-9xl font-black font-lato">CEO's Message</h1>
                 </div>
                 <div className="col-span-8 flex flex-wrap">
                     <div className="m-auto">
                         <span className="font-black text-yellow-300 text-9xl z-10 absolute float-left">&#8220;</span>
-                        <blockquote className="text-white text-3xl m-12 text-right">
+                        <p className="text-white text-3xl m-12 text-right">
                             We have to stop describing Social Protection as a cost we can't afford. We must recognize it as an investment that can unlock Generation's Prosperity: Invest in Universal Social Protection to leave no one behind and Focus on to reach those farthest behind first.
-                        </blockquote>
+                        </p>
                     </div>
                 </div>
                 
             </div>
             {
                 data.map(e=>
-                    <AccBlock {...e} />
+                    <AccBlock key={Math.random()} {...e} />
                     )
             }
         </div>

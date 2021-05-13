@@ -7,7 +7,7 @@ const Nav = () => {
 
     return(
         <>
-    <nav className="flex justify-between p-3 lg:p-4 sticky top-0 shadow-md w-full z-50 bg-white">
+    <nav className={`flex justify-between p-3 lg:p-4 sticky top-0 shadow-md w-full z-50 bg-white `}>
 
 
         {/* MOBILE NAV */}
@@ -69,7 +69,8 @@ const Nav = () => {
             </div>
         </div>
     </nav>
-    <div className={` ${ open ? "flex flex-col": "hidden" } top-12 bg-white sticky z-50 w-full`}>
+
+    <div onClick={()=>setOpen(false)} className={` ${ open ? "flex flex-col": "hidden" } top-12 bg-white sticky z-50 w-full shadow-sm m-nav-bg`}>
         <div className="p-2 px-6">
 
 

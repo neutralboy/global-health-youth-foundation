@@ -6,17 +6,17 @@ const JoinUs = () => (
             <title>Join Us | GHYF </title>
         </Head>
         <div className="grid grid-cols-12">
-            <div className="col-span-9 bg-red-600 pt-32 p-12 flex justify-center items-center pb-28">
-                <h1 className="text-9xl text-center font-extrabold text-white font-lato">Join Us</h1>
+            <div className="col-span-9 bg-red-600 p-12 flex justify-center items-center lg:pb-28 lg:pt-32">
+                <h1 className="text-5xl lg:text-9xl text-center font-extrabold text-white font-lato">Join Us</h1>
             </div>
-            <div className="col-span-3 bg-black p-12 flex flex-wrap justify-center items-center">
+            <div className="col-span-3 p-2 bg-black lg:p-12 flex flex-wrap justify-center items-center">
                 <img src="inline-block m-auto" alt="" src="https://res.cloudinary.com/poorna/image/upload/v1620401032/ghyf/icons8-handshake-100.png" />
             </div>
         </div>
-        <div className="p-28 bg-black">
+        <div className="p-8 lg:p-28 bg-black">
             <div>
-                <h2 className="text-5xl text-red-600 font-black">Membership</h2>
-                <div className="mt-6 text-white text-2xl">
+                <h2 className="text-4xl lg:text-5xl text-red-600 font-black">Membership</h2>
+                <div className="mt-6 text-white text-xl lg:text-2xl">
                     <p>
                         Global Health Youth Foundation strongly believes in a multidisciplinary, multisectoral, integrative and collaborative environment for
                         development of future Global Health Leaders. Hence Global Health Youth Foundation welcomes youth from all disciplines and sectors,
@@ -29,16 +29,16 @@ const JoinUs = () => (
                 </div>
             </div>
 
-            <div className="mt-16">
-                <h2 className="text-5xl text-red-600 font-black">How to Join?</h2>
+            <div className="mt-8 lg:mt-16">
+                <h2 className="text-3xl lg:text-5xl text-red-600 font-black">How to Join?</h2>
                 <div className="mt-6">
-                    <a href="#" className="button bg-yellow-300 p-4 rounded-full text-xl hover:bg-yellow-400">Click Here</a>
+                    <a href="#" className="button bg-yellow-300 p-2 lg:p-4 rounded-full text-lg lg:text-xl hover:bg-yellow-400">Click Here</a>
                 </div>
             </div>
 
-            <div className="mt-16">
-                <h2 className="text-5xl text-red-600 font-black">Why be our Members?</h2>
-                <div className="mt-6 text-white text-2xl">
+            <div className="mt-8 lg:mt-16">
+                <h2 className="text-4xl lg:text-5xl text-red-600 font-black">Why be our Members?</h2>
+                <div className="mt-6 text-white text-xl lg:text-2xl">
                     <p>
                         Global Health Opportunities are often unidirectional, and often not accessible to the Global South. Hence Global Health Youth Foundation (GHYF), a
                         principle Global South Youth-led Healthcare Think Tank, aims to provide sustainable, easily accessible and affordable opportunities for youth, all the
@@ -58,8 +58,8 @@ const JoinUs = () => (
                 </div>
             </div>
 
-            <div className="mt-16">
-                <h2 className="text-5xl text-red-600 font-black">Donate</h2>
+            <div className="mt-8 lg:mt-16">
+                <h2 className="text-3xl lg:text-5xl text-red-600 font-black">Donate</h2>
                 <div className="mt-6">
                     <a href="#" className="button bg-yellow-300 p-4 rounded-full text-xl hover:bg-yellow-400">Click Here</a>
                 </div>

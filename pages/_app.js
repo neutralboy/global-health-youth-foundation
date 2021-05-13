@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Nav from "./../components/Nav";
 import Footer from "./../components/Footer";
 
-import 'tailwindcss/tailwind.css'
+import 'tailwindcss/tailwind.css';
+import "./index.css";
 
 function MyApp({ Component, pageProps }) {
   return (
