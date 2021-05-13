@@ -59,7 +59,7 @@ export default function Home({ data }) {
               <img className="m-auto mt-10 lg:mt-0 align-middle" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_600/v1600608690/ghyf/yingchou-han-IJrIeCs3D4g-unsplash.png" alt="Youth" />
             </div>
             <div className="col-span-1 text-center">
-              <h2 className="text-red-600 text-6xl lg:text-8xl font-extrabold flex items-center justify-center font-lato">Mission</h2>
+              <h2 className="text-red-600 text-5xl lg:text-8xl font-extrabold flex items-center justify-center font-lato">Mission</h2>
               <div className="content text-white text-xl lg:text-3xl mt-6 lg:p-6 items-center">
                 <p>
                 To form a youth-driven Think Tank to engage
@@ -99,7 +99,7 @@ export default function Home({ data }) {
       <div className="bg-black">
         <div style={{ background: "linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(220,38,38,1) 50%, rgba(220,38,38,1) 50%)" }} className="pt-12 lg:pl-36 lg:pr-36 p-10 lg:p-28">
           <div className="header text-center">
-            <h2 className="text-6xl lg:text-8xl text-white font-extrabold font-lato">Values</h2>
+            <h2 className="text-5xl lg:text-8xl text-white font-extrabold font-lato">Values</h2>
           </div>
           <div className="grid grid-rows-4 grid-cols-1 px-4 lg:grid-cols-4 lg:grid-rows-1 lg:space-x-4 mt-12">
 
@@ -129,7 +129,7 @@ export default function Home({ data }) {
       <div className="bg-black">
         <div style={{ background: "linear-gradient(180deg, rgba(220,38,38,1) 50%, rgba(220,38,38,1) 50%, rgba(0,0,0,1) 50%" }} className="pt-12 lg:pl-36 lg:pr-36 p-10 lg:p-28">
           <div className="header text-center">
-            <h2 className="text-6xl lg:text-8xl text-white font-extrabold font-lato">Our Partners</h2>
+            <h2 className="text-5xl lg:text-8xl text-white font-extrabold font-lato">Our Partners</h2>
           </div>
           <div className="mt-12">
             <Splide options={{
