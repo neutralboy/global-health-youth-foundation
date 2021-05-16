@@ -10,16 +10,13 @@
     "deploy": "next build && next-sitemap && next export"
   },
   "dependencies": {
-    "@splidejs/react-splide": "^0.4.4",
-    "@types/react-slick": "^0.23.4",
     "next": "*",
     "next-sitemap": "^1.6.49",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
+    "pure-react-carousel": "^1.27.6",
     "react": "*",
-    "react-dom": "*",
-    "react-responsive-carousel": "^3.2.18",
-    "react-slick": "^0.28.1"
+    "react-dom": "*"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",

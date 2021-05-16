@@ -1,16 +1,6 @@
 import Head from 'next/head';
-import dynamic from "next/dynamic";
-import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-
-const Splide = dynamic(
-  () => import('@splidejs/react-splide/dist/js/components/Splide'),
-  {ssr: false}
-);
-
-const SplideSlide = dynamic(
-  () => import('@splidejs/react-splide/dist/js/components/SplideSlide'),
-  {ssr: false}
-)
+import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Home({ data }) {
   return (
@@ -131,31 +121,76 @@ export default function Home({ data }) {
           <div className="header text-center">
             <h2 className="text-5xl lg:text-8xl text-white font-extrabold font-lato">Our Partners</h2>
           </div>
-          <div className="mt-12">
-            <Splide options={{
-              rewind: true,
-              gap: '1rem'
-            }}>
-                {
-                  [
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/UNMGCY_Logo.png"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/GI_Labs.png"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/v1619869910/ghyf/partners/APHN_Logo.png"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_500/v1619869910/ghyf/partners/Pondi_Govt_Logo.png"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,w_500/v1619869910/ghyf/partners/un-logo.png"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/v1619869910/ghyf/partners/SIMSA_Logo.jpg"},
-                    {icon: "https://res.cloudinary.com/poorna/image/upload/v1619869910/ghyf/partners/SAC_logo.jpg"}
-                  ].map(e=>
-                    <SplideSlide key={Math.random()}>
-                      <img className="mx-auto max-h-28" src={e.icon} alt="" />
-                    </SplideSlide>
-                    )
-                }
-            </Splide>
+          <div className="mt-12 hidden lg:visible">
+              <CarouselProvider
+                naturalSlideWidth={100}
+                naturalSlideHeight={100}
+                totalSlides={data.length}
+                isPlaying={true}
+                interval={1500}
+                infinite
+                isIntrinsicHeight
+                visibleSlides={3}
+              >
+                <Slider>
+                  {
+                    data.map(e=>
+                        <Slide index={data.indexOf(e)} key={Math.random()}>
+                          <div>
+                            <div className="m-6 p-2 bg-white flex flex-wrap shadow-md rounded-md">
+                              <img className="m-auto" alt="" src={e.icon} />
+                            </div>
+                          </div>
+                        </Slide>
+                      )
+                  }
+                </Slider>
+              </CarouselProvider>
+          </div>
+          <div className="mt-12 lg:hidden">
+            <CarouselProvider
+                naturalSlideWidth={100}
+                naturalSlideHeight={100}
+                totalSlides={data.length}
+                isPlaying={true}
+                interval={1500}
+                infinite
+                isIntrinsicHeight
+                visibleSlides={1}
+              >
+                <Slider>
+                  {
+                    data.map(e=>
+                        <Slide index={data.indexOf(e)} key={Math.random()}>
+                          <div>
+                            <div className="m-6 p-2 bg-white flex flex-wrap shadow-md rounded-md">
+                              <img className="m-auto" alt="" src={e.icon} />
+                            </div>
+                          </div>
+                        </Slide>
+                      )
+                  }
+                </Slider>
+              </CarouselProvider>
           </div>
         </div>
       </div>
 
     </div>
   )
+}
+
+export async function getStaticProps(){
+  const data = [
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/UNMGCY_Logo.png"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/GI_Labs.png"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/APHN_Logo.png"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/Pondi_Govt_Logo.png"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/un-logo.png"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/SIMSA_Logo.jpg"},
+    {icon: "https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,h_150/v1619869910/ghyf/partners/SAC_logo.jpg"}
+  ]
+  return {
+    props: { data }
+  }
 }
