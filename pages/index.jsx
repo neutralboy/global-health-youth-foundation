@@ -121,7 +121,7 @@ export default function Home({ data }) {
           <div className="header text-center">
             <h2 className="text-5xl lg:text-8xl text-white font-extrabold font-lato">Our Partners</h2>
           </div>
-          <div className="mt-12 hidden lg:visible">
+          <div className="mt-12 hidden lg:block">
               <CarouselProvider
                 naturalSlideWidth={100}
                 naturalSlideHeight={100}
