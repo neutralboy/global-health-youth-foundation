@@ -20,8 +20,8 @@ const Footer = () => (
                 </div>
                 <div className="mt-10">
                     <div className="flex flex-row text-white text-xl">
-                        <a className="underline" href="/privacy_policy.pdf">Privacy Policy</a>
-                        <a className="ml-6 underline" href="/Terms and Conditions.pdf" >Terms and Conditions</a>
+                        <a className="underline" href="/privacy">Privacy Policy</a>
+                        <a className="ml-6 underline" href="/terms" >Terms and Conditions</a>
                     </div>
                 </div>
             </div>
