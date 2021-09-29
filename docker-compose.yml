@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+
+  ghost:
+    image: ghost:4-alpine
+    restart: always
+    ports:
+      - "3001:3001"
+      - "2368:2368"
+    environment:
+      url: https://blog.ghyf.org
+    networks:
+      - app-network
+
+  caddy:
+    image: caddy:alpine
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    networks:
+      - app-network
+
+
+networks:
+  app-network:
+    driver: bridge

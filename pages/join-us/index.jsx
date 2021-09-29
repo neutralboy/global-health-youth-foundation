@@ -32,7 +32,7 @@ const JoinUs = () => (
             <div className="mt-8 lg:mt-16">
                 <h2 className="text-3xl lg:text-5xl text-red-600 font-black">How to Join?</h2>
                 <div className="mt-6">
-                    <a rel="nofollow" href="https://pages.razorpay.com/ghyf-membership" className="button bg-yellow-300 p-2 lg:p-4 rounded-full text-lg lg:text-xl hover:bg-yellow-400">Click Here</a>
+                    <a rel="nofollow" href="https://docs.google.com/forms/d/e/1FAIpQLSe5Wgl6IiXWRnMPA2E9nvpBLUUqg8lx-NmfhFrMrIhvwF64AA/viewform" className="button bg-yellow-300 p-2 lg:p-4 rounded-full text-lg lg:text-xl hover:bg-yellow-400">Click Here</a>
                 </div>
             </div>
 

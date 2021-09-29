@@ -1,0 +1,12 @@
+http://3.108.211.170 {
+    encode gzip
+    reverse_proxy ghost:2368
+}
+ec2-3-108-211-170.ap-south-1.compute.amazonaws.com {
+    encode gzip
+    reverse_proxy ghost:2368 
+}
+blog.ghyf.org {
+    encode gzip
+    reverse_proxy ghost:2368
+}
