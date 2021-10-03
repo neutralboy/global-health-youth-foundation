@@ -50,7 +50,7 @@ const Nav = () => {
                 </Link>
             </div>
             <div className="px-6 text-lg border-red-800 border-solid border-l-2">
-                <p>Blog</p>
+                <a rel="noopener noreferrer nofollow" href="https://blog.ghyf.org" >Blog</a>
             </div>
             <div className="px-6 text-lg border-red-800 border-solid border-l-2">
                 <Link href="/accountability">
