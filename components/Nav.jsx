@@ -107,7 +107,7 @@ const Nav = () => {
                             </Link>
                         </div>
                         <div className="p-2">
-                            <a className="bg-yellow-300 p-1">Blog</a>
+                            <a href="https://blog.ghyf.org/" rel="nofollow noopener" className="bg-yellow-300 p-1">Blog</a>
                         </div>
                     </div>
                 </div>
