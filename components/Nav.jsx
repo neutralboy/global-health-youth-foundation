@@ -64,9 +64,9 @@ const Nav = () => {
                     <a>Join Us</a>
                 </Link>
             </div>
-            <div className="pl-6 text-lg border-red-800 border-solid border-l-2">
+            {/* <div className="pl-6 text-lg border-red-800 border-solid border-l-2">
                 <Link href="/donate"><a>Donate</a></Link>
-            </div>
+            </div> */}
         </div>
     </nav>
 
@@ -96,11 +96,11 @@ const Nav = () => {
                 </div>
                 <div className="col-span-1">
                     <div className="text-center">
-                        <div className="p-2">
+                        {/* <div className="p-2">
                             <Link href="/donate">
                                 <a className="bg-yellow-300 p-1">Donate</a>
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="p-2">
                             <Link href="/join-us">
                                 <a className="bg-yellow-300 p-1">Join Us</a>
