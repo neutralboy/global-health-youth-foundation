@@ -45,9 +45,9 @@ const Nav = () => {
                 <Link href="/team"><a>Team</a></Link>
             </div>
             <div className="px-6 text-lg border-red-800 border-solid border-l-2">
-                <Link href="/scope">
+                <a href="https://blog.ghyf.org/scope-of-work/">
                     <a>Scope</a>
-                </Link>
+                </a>
             </div>
             <div className="px-6 text-lg border-red-800 border-solid border-l-2">
                 <a rel="noopener noreferrer nofollow" href="https://blog.ghyf.org" >Blog</a>
