@@ -83,9 +83,7 @@ const Nav = () => {
                             </Link>
                         </div>
                         <div className="p-2">
-                            <Link href="/scope">
-                                <a className="bg-yellow-300 p-1">Scope</a>
-                            </Link>
+                            <a href="https://blog.ghyf.org/scope-of-work/" className="bg-yellow-300 p-1">Scope</a>
                         </div>
                         <div className="p-2">
                             <Link href="/accountability">
